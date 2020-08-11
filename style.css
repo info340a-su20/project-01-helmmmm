@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background: #eee;
+    font-family: Open Sans, sans serif;
+}
+
+nav {
+    background: white;
+}
+
+nav i {
+    padding: 0 10px;
+    margin-top: 5px;
+    float: right;
+    font-size: 17px;
+    color: forestgreen;
+    background: none;
+    border: none;
+    align-self: center;
+} 
+
+nav .searchbar {
+    height: 40px;
+    border: 0.5px solid #eee;
+    box-shadow: 0 1px 1px #eee;
+    border-radius: 5px;
+}
+
+nav ::-webkit-input-placeholder {
+    padding: 7px;
+    opacity: 70%;
+}
+
+nav a.navbar-brand {
+    font-family: Roboto Slab, slab-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-right: 16px;
+    color: forestgreen;
+}
+
+nav form button {
+    padding: 0 10px;
+    color: forestgreen;
+    font-size: 17px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+#section-a {
+    padding: 1em;
+}
+
+#section-a h5 {
+    font-weight: 700;
+    color: #9c9c9c;
+    margin-top: 10px;
+    margin-left: 1em;
+    display: block;
+
+}
+
+#section-a ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#section-a li {
+    margin-bottom: 1em;
+    background: white;
+    color: #3f3f3f;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+#section-a .btn {
+    background-color: darkslategray;
+    border: none;
+}
+
+footer {
+    padding: 2em 1em;
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    font-size: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: lightgreen;
+    font-weight: bold;
+}
+
+footer #copyright {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.jumbotron h1 {
+    color: forestgreen;
+    font-family: Roboto Slab, slab serif;
+    font-weight: 100;
+}
+
+.btn-primary {
+    border: 1px solid forestgreen;
+    background: none;
+    color: forestgreen;
+}
+
+@media (max-width: 598px) {
+    nav a.navbar-brand {
+        display: none;
+    }
+}
+
+@media (min-width: 598px) {
+    #section-a ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section-a li {
+        width: 44%;
+        margin: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    #section-a ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section-a li {
+        width: 30%;
+        margin: 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    #section-a ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section-a li {
+        width: 22%;
+        margin: 1em;
+    }
+}
