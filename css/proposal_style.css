@@ -1,0 +1,41 @@
+body {
+    font-family: helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: lighter;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+span {
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+p {
+    padding: 10px;
+    line-height: 1.4;
+}
+
+em {
+    font-weight: bold;
+}
+
+a:link {
+    color: sandybrown;
+}
+
+a:visited {
+    color: brown;
+}
+
+li {
+    padding: 2px;
+}
