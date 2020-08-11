@@ -38,7 +38,7 @@ nav ::-webkit-input-placeholder {
 
 nav a.navbar-brand {
     font-family: Roboto Slab, slab-serif;
-    font-weight: bold;
+    font-weight: 100;
     font-size: 2em;
     margin-right: 16px;
     color: forestgreen;
