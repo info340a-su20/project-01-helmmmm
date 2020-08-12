@@ -129,7 +129,7 @@ footer #copyright {
     font-weight: 100;
 }
 
-.btn-primary {
+.jumbotron .btn-primary {
     border: 1px solid forestgreen;
     background: none;
     color: forestgreen;
