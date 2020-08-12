@@ -6,7 +6,7 @@
 body {
     width: 100%;
     background: #eee;
-    font-family: Open Sans, sans serif;
+    font-family: Open Sans, sans-serif;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav ::-webkit-input-placeholder {
 }
 
 nav a.navbar-brand {
-    font-family: Roboto Slab, slab-serif;
+    font-family: Roboto Slab, serif;
     font-weight: 100;
     font-size: 2em;
     margin-right: 16px;
@@ -125,7 +125,7 @@ footer #copyright {
 
 .jumbotron h1 {
     color: forestgreen;
-    font-family: Roboto Slab, slab serif;
+    font-family: Roboto Slab, serif;
     font-weight: 100;
 }
 
@@ -151,10 +151,6 @@ footer #copyright {
         width: 44%;
         margin: 1em;
     }
-}
-
-@media (min-width: 768px) {
-
 }
 
 @media (min-width: 992px) {
