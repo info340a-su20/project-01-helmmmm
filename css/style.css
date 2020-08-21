@@ -38,7 +38,7 @@ nav ::-webkit-input-placeholder {
 
 nav a.navbar-brand {
     font-family: Roboto Slab, serif;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 2em;
     margin-right: 16px;
     color: forestgreen;
@@ -58,17 +58,40 @@ img {
     height: auto;
 }
 
-#section-a {
-    padding: 1em;
+#section-a-head {
+    margin: 30px 2em 1em 2em;
 }
 
-#section-a h5 {
+h5, #section-a-head button {
     font-weight: 700;
     color: #9c9c9c;
-    margin-top: 10px;
-    margin-left: 1em;
-    display: block;
+    display: inline-block;
+}
 
+.view-switch {
+    float: right;
+}
+
+#section-a-head button {
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 2px 2px;
+    padding: 2px 5px;
+}
+
+#section-a-head button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+#section-a-head button.active {
+    background-color: #9c9c9c;
+    color: #eee;
+}
+
+#section-a {
+    padding: 0 1em;
+    margin-left: 0;
 }
 
 #section-a ul {
@@ -94,9 +117,23 @@ img {
     padding: 1.5em;
 }
 
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 1px 10px rgb(168, 168, 168);
+}
+
 #section-a .btn {
-    background-color: darkslategray;
-    border: none;
+    background-color: white;
+    font-weight: 600;
+    color: forestgreen;
+    border: 2px solid forestgreen;
+}
+
+#section-a .btn:hover {
+    font-weight: 600;
+    color: white;
+    background-color: forestgreen;
+    border: 2px solid forestgreen;
 }
 
 footer {
@@ -142,6 +179,10 @@ footer #copyright {
 }
 
 @media (min-width: 598px) {
+    #section-a-head {
+        margin: 30px 5em 0 3.5em;
+    }
+
     #section-a ul {
         display: flex;
         flex-wrap: wrap;
@@ -154,11 +195,6 @@ footer #copyright {
 }
 
 @media (min-width: 992px) {
-    #section-a ul {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     #section-a li {
         width: 30%;
         margin: 1em;
@@ -166,11 +202,6 @@ footer #copyright {
 }
 
 @media (min-width: 1200px) {
-    #section-a ul {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     #section-a li {
         width: 22%;
         margin: 1em;
