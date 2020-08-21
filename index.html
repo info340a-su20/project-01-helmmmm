@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shortcut icon" type="image/png" href="./img/stoool-favicon.png">
     <title>Stoool</title>
 </head>
 <body>
@@ -26,11 +27,17 @@
     </header>
 
     <main>
+      <section id="section-a-head">
+        <h5 class="section-header">My topics</h5>
+        <span class="view-switch">
+          <button id="grid-btn" class="view-btn active" role="button"><i class="fas fa-th-large"></i></button>
+          <button id="list-btn" class="view-btn" role="button"><i class="fas fa-list"></i></button>
+        </span>
+      </section>
         <!-- My Topics Cards -->
         <section id="section-a">
-            <h5>My topics</h5>
-            <ul>
-                <li>
+            <ul id="items-holder">
+                <li id="items">
                     <div class="card">
                         <img class="card-img-top" src="img/javascript.png" alt="laptop">
                         <div class="card-body">
@@ -40,7 +47,7 @@
                         </div>
                       </div>
                 </li>
-                <li>
+                <li id="items">
                     <div class="card">
                         <img class="card-img-top" src="img/illustrator.png" alt="illustrator logo">
                         <div class="card-body">
@@ -50,7 +57,7 @@
                         </div>
                       </div>
                 </li>
-                <li>
+                <li id="items">
                     <div class="card">
                         <img class="card-img-top" src="img/photoshop.png" alt="photoshop logo">
                         <div class="card-body">
@@ -60,7 +67,7 @@
                         </div>
                       </div>
                 </li>
-                <li>
+                <li id="items">
                     <div class="card">
                         <img class="card-img-top" src="img/investing.png" alt="people on stacks of coins and plants">
                         <div class="card-body">
@@ -70,7 +77,7 @@
                         </div>
                       </div>
                 </li>
-                <li>
+                <li id="items">
                     <div class="card">
                         <img class="card-img-top" src="img/photography.png" alt="camera">
                         <div class="card-body">
@@ -80,7 +87,7 @@
                         </div>
                       </div>
                 </li>
-                <li>
+                <li id="items">
                     <div class="card">
                         <img class="card-img-top" src="img/medicine.png" alt="medicine">
                         <div class="card-body">
@@ -90,7 +97,7 @@
                         </div>
                       </div>
                 </li>
-                <li>
+                <li id="items">
                     <div class="card">
                         <img class="card-img-top" src="img/cooking.png" alt="delicious looking dish">
                         <div class="card-body">
@@ -100,7 +107,7 @@
                         </div>
                       </div>
                 </li>
-                <li>
+                <li id="items">
                     <div class="card">
                         <img class="card-img-top" src="img/creative writing.png" alt="books on a shelf">
                         <div class="card-body">
@@ -110,7 +117,7 @@
                         </div>
                       </div>
                 </li>
-                <li>
+                <li id="items">
                     <div class="card">
                         <img class="card-img-top" src="img/farming.png" alt="green globe with farming elements">
                         <div class="card-body">
@@ -136,5 +143,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
