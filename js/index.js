@@ -4,10 +4,9 @@
 // grid and list layout toggle
 
 let btn = document.getElementsByClassName('view-btn');
-let index = 0;
 
 function button(n) {
-    currentBtn(index = n);
+    currentBtn(n);
 }
 
 function currentBtn(n) {
