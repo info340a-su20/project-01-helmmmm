@@ -1,10 +1,9 @@
 'use strict';
 
 let btn = document.getElementsByClassName('view-btn');
-let index;
 
 function button(n) {
-    currentBtn(index = n);
+    currentBtn(n);
 }
 
 function currentBtn(n) {
